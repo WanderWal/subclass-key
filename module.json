@@ -1,0 +1,21 @@
+{
+  "id": "subclass-key",
+  "title": "Subclass Key",
+  "description": "Unlock subclasses from feats: Item Grant / Item Choice can grant subclass items (normally blocked), and granted subclasses get system.classIdentifier aligned to the actor's class. Replaces the old dnd5e-feat-subclass-advancement module — enable Subclass Key and remove the old entry if it appears missing.",
+  "version": "2.2.1",
+  "authors": [{ "name": "Local" }],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": { "minimum": "5.0.0" }
+      }
+    ]
+  },
+  "esmodules": ["scripts/subclass-key.mjs"]
+}
