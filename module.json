@@ -17,5 +17,7 @@
       }
     ]
   },
-  "esmodules": ["scripts/subclass-key.mjs"]
+  "esmodules": ["scripts/subclass-key.mjs"],
+  "manifest": "https://raw.githubusercontent.com/WanderWal/subclass-key/refs/heads/main/module.json",
+	"download": "https://github.com/WanderWal/subclass-key/archive/refs/tags/2.2.1.zip"
 }
